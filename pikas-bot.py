@@ -83,4 +83,4 @@ async def no_maidens(context):
 async def you_mean_football(context):
     await context.send("https://media.discordapp.net/attachments/948620463192551467/952662738381996073/meme.png")
 
-bot.run("ODI0MDkwMTIwNzYzNDczOTc2.YFqTuw.zjWaln82teCM2MQl1iI4jBHuwrY")
+bot.run("feel free to use my code put your bots token here and make sure to remove it when you post it")
