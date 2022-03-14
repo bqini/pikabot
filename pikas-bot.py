@@ -1,5 +1,6 @@
 import nextcord
 from discord.ext import commands
+import random
 
 bot = commands.Bot(activity=nextcord.Game(name='prefix }'),command_prefix="}", case_insensitive=True)
 
