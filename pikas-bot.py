@@ -82,5 +82,21 @@ async def no_maidens(context):
 @bot.command(name="britan_sucks")
 async def you_mean_football(context):
     await context.send("https://media.discordapp.net/attachments/948620463192551467/952662738381996073/meme.png")
+    
+@bot.command(name="bot_location")
+async def bot_current_website_app(cxt):
+    await context.send("im currently running with vsc")
+    
+    
+    
+@bot.command()
+async def h_or_t(ctx):
+  lst = ["heads", "tails"]
+  choice = random.choice(lst)
+  await ctx.reply(choice)
 
+@bot.slash_command(name="sex?", guild_ids=[948620463192551464])
+async def slash_test(interaction):
+    await interaction.send("why")
+    
 bot.run("feel free to use my code put your bots token here and make sure to remove it when you post it")
