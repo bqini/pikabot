@@ -96,8 +96,12 @@ async def h_or_t(ctx):
   choice = random.choice(lst)
   await ctx.reply(choice)
 
-@bot.slash_command(name="sex?", guild_ids=[948620463192551464])
+@bot.slash_command(name="sex", guild_ids=[948620463192551464])
 async def slash_test(interaction):
     await interaction.send("why")
+    
+@bot.command(name="oregon_trail")
+async def oregon_trail(context):
+    await context.send("https://archive.org/details/msdos_Oregon_Trail_The_1990")
     
 bot.run("feel free to use my code put your bots token here and make sure to remove it when you post it")
